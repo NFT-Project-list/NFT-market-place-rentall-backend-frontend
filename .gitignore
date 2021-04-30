@@ -6,5 +6,5 @@ node_modules
 ncp-debug.log
 npm-debug.log
 .idea
-src/config.js
+# src/config.js
 .DS_Store
