@@ -31,30 +31,44 @@
   },
   "": {
     "svg": [
-      "/assets/public/adminIcons/defaultAdmin.svg?1105f90c",
+      "/assets/public/adminIcons/defaultAdmin.svg?b858ca30",
       "/assets/public/languageIcon.svg?5919ece0",
       "/assets/public/adminIcons/LoginPageVector.svg?69262549",
+      "/assets/public/adminIcons/LoginPageVector.svg?3ab574e4",
       "/assets/public/adminIcons/Totallistings.svg?26115312",
+      "/assets/public/adminIcons/Totallistings.svg?66242d6a",
       "/assets/public/adminIcons/Totalusers.svg?c7a880a4",
+      "/assets/public/adminIcons/Totalusers.svg?6a1dc247",
       "/assets/public/adminIcons/ce2b5b26.svg?ce2b5b26",
       "/assets/public/adminIcons/last24hrslistings.svg?5882103e",
+      "/assets/public/adminIcons/last24hrslistings.svg?fdf66b48",
       "/assets/public/adminIcons/last24hrsusers.svg?d611bc10",
+      "/assets/public/adminIcons/last24hrsusers.svg?bbdb2a2b",
       "/assets/public/adminIcons/last30dayslistings.svg?97e4665a",
+      "/assets/public/adminIcons/last30dayslistings.svg?60954fdf",
       "/assets/public/adminIcons/last30dayusers.svg?854efb7d",
+      "/assets/public/adminIcons/last30dayusers.svg?3adadf46",
       "/assets/public/adminIcons/reservationicon.svg?b66c14f7",
+      "/assets/public/adminIcons/reservationicon.svg?5f5e660e",
       "/assets/public/rightArrow.svg?0079a97d",
       "/assets/src/components/Booking/Payment/question.svg?5a5d7b95",
       "/assets/src/components/ContactForm/address.svg?b2f95118",
+      "/assets/src/components/ContactForm/address.svg?6e221f95",
       "/assets/src/components/ContactForm/callLogo.svg?0f373e05",
+      "/assets/src/components/ContactForm/callLogo.svg?02b4f8d6",
       "/assets/src/components/ContactForm/mailblack.svg?8798e90b",
+      "/assets/src/components/ContactForm/mailblack.svg?cd127a10",
       "/assets/src/components/Feedback/guarantee.svg?4dc7f7d7",
       "/assets/src/components/Feedback/phone-call.svg?db8614ea",
       "/assets/src/components/Feedback/verified-protection.svg?e174015c",
       "/assets/src/components/Receipt/question.svg?5a5d7b95",
       "/assets/src/components/ViewListing/Calendar/question.svg?5a5d7b95",
       "/assets/src/components/ViewListing/ListingIntro/home.svg?d1d22c9a",
+      "/assets/src/components/ViewListing/ListingIntro/home.svg?95656e04",
       "/assets/src/components/ViewListing/ListingIntro/hotel.svg?4bd2b5ea",
+      "/assets/src/components/ViewListing/ListingIntro/hotel.svg?4b239ee0",
       "/assets/src/components/ViewListing/ListingIntro/slumber.svg?a587772d",
+      "/assets/src/components/ViewListing/ListingIntro/slumber.svg?a99fabbf",
       "/assets/src/components/ViewListing/ListingIntro/user.svg?7de5e5f7"
     ],
     "png": [
@@ -200,6 +214,6 @@
       "/assets/src/routes/static/whyhost/whyhostbanner.jpg?01b44601",
       "/assets/src/routes/whyhostnew/whyhostbanner.jpg?01b44601"
     ],
-    "json": "/assets/31db86ec47aadee3ae6c.hot-update.json"
+    "json": "/assets/377327b57d7f281863ad.hot-update.json"
   }
 }
