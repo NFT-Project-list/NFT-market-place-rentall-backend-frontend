@@ -123,12 +123,12 @@ class NavigationAfterLogin extends React.Component {
         >
           {formatLocale(currentLocale)}
         </NavLink>
-        <NavLink
+        {/* <NavLink
           noLink
           onClick={(e) => openHeaderModal('currencyModal')}
         >
           {showCurrencySymbol(displayCurrency, currentLocale) + displayCurrency}
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to="/dashboard"
           className={cx('visible-xs', s.breakPointScreen)}

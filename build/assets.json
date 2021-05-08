@@ -173,7 +173,10 @@
       "/assets/src/components/WishListIcon/heart.png?cf6011b4",
       "/assets/src/components/WishListIcon/heartFil.png?064d719e",
       "/assets/src/components/WishListModalForm/heart.png?cf6011b4",
-      "/assets/src/components/WishListModalForm/heartFil.png?064d719e"
+      "/assets/src/components/WishListModalForm/heartFil.png?064d719e",
+      "/assets/src/components/Feedback/no-fees.png?53e133e6",
+      "/assets/src/components/Feedback/no-forms.png?7c1bd2a0",
+      "/assets/src/components/Feedback/no-keys.png?8b9ae9e7"
     ],
     "jpeg": [
       "/assets/src/components/Cancellation/large_no_image.jpeg?63dc6a2f",
@@ -200,6 +203,6 @@
       "/assets/src/routes/static/whyhost/whyhostbanner.jpg?01b44601",
       "/assets/src/routes/whyhostnew/whyhostbanner.jpg?01b44601"
     ],
-    "json": "/assets/31db86ec47aadee3ae6c.hot-update.json"
+    "json": "/assets/41dc2e7a669d4085e545.hot-update.json"
   }
 }

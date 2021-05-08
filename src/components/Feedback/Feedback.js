@@ -15,6 +15,11 @@ import cx from 'classnames';
 import phoneIcon from './phone-call.svg';
 import guaranteeIcon from './guarantee.svg';
 import verifiedIcon from './verified-protection.svg';
+import noFees from './no-fees.png';
+import noForms from './no-forms.png';
+import noKeys from './no-keys.png';
+
+
 class Feedback extends React.Component {
 
   static propTypes = {
@@ -50,9 +55,10 @@ class Feedback extends React.Component {
 
                       <div className={cx(s.feedbackIcon, 'overViewIconrtl')}>
                         {/* <FontAwesome.FaPhone /> */}
-                        <svg className={cx(s.overviewIcon)}>
+                        {/* <svg className={cx(s.overviewIcon)}>
                           <use xlinkHref={phoneIcon + '#Layer_1'}></use>
-                        </svg>
+                        </svg> */}
+                        <img style={{width:'34px',height:'34px'}} src={noFees} />
                       </div>
 
                       <div className={cx(s.feedbackContent, 'feedbackContent')}>
@@ -69,9 +75,10 @@ class Feedback extends React.Component {
 
                       <div className={cx(s.feedbackIcon, 'overViewIconrtl')}>
                         {/* <FontAwesome.FaShield /> */}
-                        <svg className={s.overviewIcon}>
+                        {/* <svg className={s.overviewIcon}>
                           <use xlinkHref={guaranteeIcon + '#Layer_1'}></use>
-                        </svg>
+                        </svg> */}
+                        <img style={{width:'34px',height:'34px'}} src={noForms} />
                       </div>
                       <div className={cx(s.feedbackContent, 'feedbackContent')}>
                         <label className={s.landingLabel}>{getFooterSetting.title2}</label>
@@ -89,9 +96,10 @@ class Feedback extends React.Component {
 
                      <div className={cx(s.feedbackIcon, 'overViewIconrtl')}>
                         {/* <FontAwesome.FaCheckSquareO /> */}
-                        <svg className={s.overviewIcon}>
+                        {/* <svg className={s.overviewIcon}>
                           <use xlinkHref={verifiedIcon + '#Layer_1'}></use>
-                        </svg>
+                        </svg> */}
+                        <img style={{width:'34px',height:'34px'}} src={noKeys} />
                       </div>
                       <div className={cx(s.feedbackContent, 'feedbackContent')}>
                         <label className={s.landingLabel}> {getFooterSetting.title3}</label>
