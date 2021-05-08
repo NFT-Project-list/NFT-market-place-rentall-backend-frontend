@@ -63,19 +63,19 @@ class NavigationBeforeLogin extends React.Component {
           >
             {formatLocale(currentLocale)}
           </NavLink>
-          <NavLink
+          {/* <NavLink
             noLink
             onClick={(e) => openHeaderModal('currencyModal')}
             className={cx(s.breakPointScreen)}
           >
             {showCurrencySymbol(displayCurrency, currentLocale) + displayCurrency}
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/whyhost">
             <FormattedMessage {...messages.becomeAHost} />
           </NavLink>
-          <NavLink to="/help">
+          {/* <NavLink to="/help">
             <FormattedMessage {...messages.help} />
-          </NavLink>
+          </NavLink> */}
           <NavLink to="#" noLink onClick={openLoginModal}>
             <FormattedMessage {...messages.login} />
           </NavLink>
