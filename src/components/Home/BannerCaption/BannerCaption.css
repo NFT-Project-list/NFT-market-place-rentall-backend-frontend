@@ -1,38 +1,53 @@
-@import '../../variables.css';
+@import "../../variables.css";
 /** Common - Start **/
 .noPadding {
-    padding: 0px;
+  padding: 0px;
 }
 .noMargin {
-    margin: 0px;
+  margin: 0px;
 }
 /** Common - End **/
 /** Banner caption - Start **/
 .bannerCaptionContainer {
-    position: relative;
+  position: relative;
 }
 .bannerCaptionText {
-    font-size: 48px;
-    line-height: 56px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #484848;
-    margin: 0px;
-    font-weight: 200;
+  font-size: 48px;
+  line-height: 56px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #484848;
+  margin: 0px;
+  font-weight: 200;
 }
 .bannerCaptionHighlight {
-    font-weight: 700;
-    color: var(--btn-primary-bg);
+  font-weight: 700;
+  /* color: var(--btn-primary-bg); */
+  background: hsla(357, 86%, 64%, 1);
+  background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
+  background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(357, 86%, 64%, 1) 10%,
+    hsla(185, 85%, 50%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1);
+  -ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=" #f2545b ", endColorstr="
+    #13d9eb ", GradientType=1)";
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media screen and (max-width: 1200px) {
-    .bannerCaptionText {
-        padding-top: 50px;
-    }
+  .bannerCaptionText {
+    padding-top: 50px;
+  }
 }
 @media screen and (max-width: 767px) {
-    .bannerCaptionText {
-        font-size: 25px;
-        line-height: 30px;
-    }    
+  .bannerCaptionText {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
 /** Banner caption - End **/

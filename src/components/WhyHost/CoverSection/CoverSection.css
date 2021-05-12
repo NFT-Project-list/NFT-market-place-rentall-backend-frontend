@@ -51,7 +51,7 @@ p.common {
 }
 .coveredsection ul li:before {
 	content: '';
-	background-image: url('./symbol.png');
+	background-image: url('./smCheck.png');
 	display: inline-block;
 	width: 24px;
 	height: 18px;

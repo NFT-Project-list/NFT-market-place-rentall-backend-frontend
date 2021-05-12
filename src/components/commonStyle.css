@@ -1,6 +1,6 @@
 @import './variables.css';
 .btnPrimary {
-  border-color: var(--btn-primary-bg) !important;
+  /* border-color: var(--btn-primary-bg) !important; */
   background-color: var(--btn-primary-bg) !important;
   color: var(--btn-primary-color) !important;
   padding: 7px 21px;
@@ -10,16 +10,26 @@
   box-shadow: none !important;
   text-decoration: none !important;
   cursor: pointer;
+  background: hsla(357, 86%, 64%, 1);
+	background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 20%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 20%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -webkit-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 20%, hsla(185, 85%, 50%, 1) 100%) !important;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1 ) !important;
 }
 .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
 .btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: var(--btn-primary-hover-bg) !important;
+  /* border-color: var(--btn-primary-hover-bg) !important; */
   background-color: var(--btn-primary-hover-bg) !important;
   color: var(--btn-primary-color);
   box-shadow: none !important;
+  background: hsla(357, 86%, 64%, 1);
+	background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -webkit-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1 ) !important;
 }
 .btnPrimaryBorder {
-	border-color: var(--btn-primaryBorder-color);
+	/* border-color: var(--btn-primaryBorder-color); */
   color: var(--btn-primaryBorder-color) !important;
   background-color: var(--btn-primaryBorder-bg);
   padding: 7px 21px;
@@ -33,7 +43,7 @@
 }
 .btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
 .btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
-  border-color: var(--btn-primaryBorder-color);
+  /* border-color: var(--btn-primaryBorder-color); */
   color: var(--btn-primaryBorder-color);
   background-color: var(--btn-primaryBorder-bg);
   box-shadow: none !important;
@@ -69,6 +79,20 @@
 }
 .btnBig {
   padding: 13px 21px !important;
+}
+.btnGradient {
+  background: hsla(357, 86%, 64%, 1);
+	background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 20%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 20%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -webkit-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 20%, hsla(185, 85%, 50%, 1) 100%) !important;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1 ) !important;
+}
+.btnGradient:hover {
+  background: hsla(357, 86%, 64%, 1);
+	background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -webkit-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1 ) !important;
 }
 .fullWidth {
   width: 100%;

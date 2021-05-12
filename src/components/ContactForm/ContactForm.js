@@ -35,9 +35,10 @@ import {
 import fetch from '../../core/fetch';
 
 //Images
-import mailLogo from './mailblack.svg';
+// import mailLogo from './mailblack.svg';
 import caller from './callLogo.svg';
 import addressLogo from './address.svg';
+import mailLogo from './mailLogo.webp';
 
 // Internal Components
 import Loader from '../Loader';
@@ -165,29 +166,29 @@ class ContactForm extends Component {
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12} className={s.marginTop}>
                         <div>
-                            <Col lg={12} md={12} sm={12} xs={12} className={s.space3}>
+                            {/* <Col lg={12} md={12} sm={12} xs={12} className={s.space3}>
                                 <div className={s.space6}>
                                     <h1 className={s.contactTitle}>
                                         <FormattedMessage {...messages.contactFormInformation} />
                                     </h1>
                                 </div>
-                            </Col>
-                            <Col lg={4} md={4} sm={4} xs={12} className={s.alignCenter}>
+                            </Col> */}
+                            <Col lg={12} md={12} sm={12} xs={12} className={s.alignCenter}>
                                 <div className={s.space6}>
                                     <div>
                                         <div className={s.iconMargin}>
                                             <img src={mailLogo} className={s.mailIcon} />
                                         </div>
                                         <div>
-                                            <h1 className={cx(s.contactTitle, s.subTitleText)}>
+                                            {/* <h1 className={cx(s.contactTitle, s.subTitleText)}>
                                                 <FormattedMessage {...messages.contactFormEmail} />
-                                            </h1>
+                                            </h1> */}
                                             <a href={"mailto:" + email} className={s.linkText} target='_blank'>{email}</a>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={4} md={4} sm={4} xs={12} className={s.alignCenter}>
+                            {/* <Col lg={4} md={4} sm={4} xs={12} className={s.alignCenter}>
                                 <div className={s.space6}>
                                     <div>
                                         <div className={s.iconMargin}>
@@ -201,8 +202,8 @@ class ContactForm extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
-                            <Col lg={4} md={4} sm={4} xs={12} className={s.alignCenter}>
+                            </Col> */}
+                            {/* <Col lg={4} md={4} sm={4} xs={12} className={s.alignCenter}>
                                 <div className={s.space6}>
                                     <div>
                                         <div className={s.iconMargin}>
@@ -216,7 +217,7 @@ class ContactForm extends Component {
                                         </h4>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
                         </div>
                     </Col>
                     <Col lg={12} md={12} sm={12} xs={12} className={cx(s.marginTop)}>
@@ -294,7 +295,7 @@ class ContactForm extends Component {
                                             <Loader
                                                 type={"button"}
                                                 buttonType={"submit"}
-                                                className={cx(s.button, bt.btnPrimary, bt.btnLarge)}
+                                                className={cx(s.button, bt.btnPrimary, bt.btnLarge, bt.btnGradient)}
                                                 disabled={submitting}
                                                 show={contactLoading}
                                                 label={formatMessage(messages.sendmail)}

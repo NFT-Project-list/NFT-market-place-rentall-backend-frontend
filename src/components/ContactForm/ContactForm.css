@@ -80,10 +80,10 @@
 }
 .mailIcon {
 	width: 100%;
-	max-width: 100px;
+	max-width: 300px;
 	height: auto;
 	backface-visibility: hidden;
-	min-height: 100px;
+	min-height: 250px;
 	max-height: 100%;
 }
 .iconMargin {

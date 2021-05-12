@@ -8,3 +8,5 @@ npm-debug.log
 .idea
 # src/config.js
 .DS_Store
+node_modules
+
