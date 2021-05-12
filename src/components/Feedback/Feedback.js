@@ -15,9 +15,9 @@ import cx from 'classnames';
 import phoneIcon from './phone-call.svg';
 import guaranteeIcon from './guarantee.svg';
 import verifiedIcon from './verified-protection.svg';
-import noFees from './no-fees.png';
-import noForms from './no-forms.png';
-import noKeys from './no-keys.png';
+import noFees from './no-fees.webp';
+import noForms from './no-forms.webp';
+import noKeys from './no-keys.webp';
 
 
 class Feedback extends React.Component {

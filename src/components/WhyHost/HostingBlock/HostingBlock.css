@@ -33,6 +33,11 @@
 	height: 50px;
 	text-align: center;
 	margin-bottom: 20px;
+	background: hsla(357, 86%, 64%, 1);
+	background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	background: -webkit-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 0%, hsla(185, 85%, 50%, 1) 100%) !important;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1 ) !important;
 }
 .steps .circle span {
 	display: block;

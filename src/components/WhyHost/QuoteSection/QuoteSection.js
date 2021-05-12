@@ -11,6 +11,7 @@ import {
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import cx from 'classnames';
 import s from './QuoteSection.css';
+import bt from '../../commonStyle.css';
 import { url } from '../../../config'
 
 // History
@@ -38,14 +39,14 @@ class SocialLogin extends Component {
           <Col xs={12} sm={12} md={12} lg={12}>
             <div className={s.quotesection}>
               <div className={s.imagearea}>
-                <Image src={url + '/images/home/' + img1} alt="image" responsive />
+                <Image src={'/images/home/' + img1} alt="image" responsive />
               </div>
 
               <div className={cx(s.contentarea, s.rightsidecontent, 'rightsidecontentRtl')}>
                 <h3 className={s.qutoIcon}><span className={s.qutoSize}>“</span></h3>
                 <h2 className={s.quotesectionH2}>{data && data.quoteSectionTitle1}</h2>
                 <h6>{data && data.quoteSectionContent1}</h6>
-                <Button className={s.btnlearn} onClick={this.handleClick}>
+                <Button className={bt.btnPrimary} onClick={this.handleClick}>
                 {data && data.quoteSectionButton1}</Button>
               </div>
             </div>
@@ -56,12 +57,12 @@ class SocialLogin extends Component {
                 <h3 className={s.qutoIcon}><span className={s.qutoSize}>“</span></h3>
                 <h2 className={s.quotesectionH2}>{data && data.quoteSectionTitle2}</h2>
                 <h6>{data && data.quoteSectionContent2}</h6>
-                <Button className={s.btnlearn} onClick={this.handleClick}>
+                <Button className={bt.btnPrimary} onClick={this.handleClick}>
                 {data && data.quoteSectionButton2}
                 </Button>
               </div>
               <div className={s.imagearea}>
-                <Image src={url + '/images/home/' + img2} alt="image" responsive />
+                <Image src={'/images/home/' + img2} alt="image" responsive />
               </div>
             </div>
           </Col>

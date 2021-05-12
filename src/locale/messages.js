@@ -107,7 +107,7 @@ const messages = defineMessages({
   },
   discover: {
     id: 'rentall.discover',
-    defaultMessage: 'Discover',
+    defaultMessage: 'DISCOVER',
     description: 'Menu item',
   },
   trustSafety: {
@@ -137,7 +137,7 @@ const messages = defineMessages({
   },
   hosting: {
     id: 'rentall.hosting',
-    defaultMessage: 'Hosting',
+    defaultMessage: 'HOST',
     description: 'Menu item',
   },
   whyHost: {

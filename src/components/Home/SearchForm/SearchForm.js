@@ -240,7 +240,7 @@ class SearchForm extends React.Component {
                         </FormControl>
                       </div>
                       <div className={cx(s.tableCell, s.search, s.noBroderRight)}>
-                        <Button className={cx(bt.btnPrimary, s.btnBlock, s.searchButton)} onClick={this.handleClick}>
+                        <Button className={cx(bt.btnPrimary, s.btnBlock, s.searchButton, bt.btnGradient)} onClick={this.handleClick}>
                           <span className={cx('hidden-lg hidden-xs')}>
                             <FontAwesome.FaSearch />
                           </span>
