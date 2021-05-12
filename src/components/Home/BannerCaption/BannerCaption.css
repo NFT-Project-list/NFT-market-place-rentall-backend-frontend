@@ -24,10 +24,10 @@
   font-weight: 700;
   /* color: var(--btn-primary-bg); */
   background: hsla(357, 86%, 64%, 1);
-  background: linear-gradient(180deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
-  background: -moz-linear-gradient(180deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
+  background: linear-gradient(0deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
+  background: -moz-linear-gradient(0deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
   background: -webkit-linear-gradient(
-    180deg,
+    0deg,
     hsla(357, 86%, 64%, 1) 10%,
     hsla(185, 85%, 50%, 1) 100%
   );
