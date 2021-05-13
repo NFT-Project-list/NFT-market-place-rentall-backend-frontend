@@ -96,7 +96,7 @@ CREATE TABLE `AdminUser` (
 
 LOCK TABLES `AdminUser` WRITE;
 /*!40000 ALTER TABLE `AdminUser` DISABLE KEYS */;
-INSERT INTO `adminuser` (`id`, `email`, `password`, `emailConfirmed`, `isSuperAdmin`, `createdAt`, `updatedAt`, `roleId`) VALUES
+INSERT INTO `AdminUser` (`id`, `email`, `password`, `emailConfirmed`, `isSuperAdmin`, `createdAt`, `updatedAt`, `roleId`) VALUES
 ('6ee82f10-b422-11eb-8ca1-1ff08fb2b98b', 'hahz@blkluv.org', '$2b$08$iw/1unBoRgSoME8HuuZNYOiApElatMyr6TjnXPhmq9XgS5N6M5zG2', 1, 1, '2021-05-13 21:37:28', '2021-05-13 19:54:24', NULL),
 ('6ee82f10-b422-11eb-8ca4-1ff08fb2b98c', 'serzh.shatohin@bk.ru', '$2b$08$lJtSENOwkC/W64O62UAOtO..Vs9AJoxlq6MprpuRMRxffQNqA93uu', 1, 1, '2021-05-13 22:10:59', '2021-05-13 20:15:17', NULL),
 ('8b16c890-c205-11e6-a2c7-4195de507451', 'admin@radicalstart.com', '$2a$08$SR.h58BFMCbcHbl3y9tvYe9UM.q1SMXh43M51po7FDXQrOcMpQxLy', 1, 1, '2016-12-14 13:59:34', '2016-12-14 13:59:34', NULL);
