@@ -3,10 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2021 at 10:18 PM
+-- Generation Time: May 13, 2021 at 10:32 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
+SET FOREIGN_KEY_CHECKS=0;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -2712,6 +2713,7 @@ ALTER TABLE `userverifiedinfo`
 ALTER TABLE `wishlist`
   ADD CONSTRAINT `WishList_ibfk_1` FOREIGN KEY (`wishListGroupId`) REFERENCES `wishlistgroup` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `WishList_ibfk_2` FOREIGN KEY (`listId`) REFERENCES `listing` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+SET FOREIGN_KEY_CHECKS=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
