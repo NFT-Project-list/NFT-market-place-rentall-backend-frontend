@@ -1574,7 +1574,7 @@
   {
     "id": "rentall.discover",
     "description": "Menu item",
-    "defaultMessage": "Discover",
+    "defaultMessage": "DISCOVER",
     "message": "",
     "files": [
       "src/locale/messages.js"
@@ -2240,7 +2240,7 @@
   {
     "id": "rentall.hosting",
     "description": "Menu item",
-    "defaultMessage": "Hosting",
+    "defaultMessage": "HOST",
     "message": "",
     "files": [
       "src/locale/messages.js"
