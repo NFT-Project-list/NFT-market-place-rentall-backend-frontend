@@ -308,7 +308,7 @@ class ListingDetails extends React.Component {
           data && data.listingData && data.listingData.cancellation && <div className={cx(s.horizontalLineThrough)}>
             <Row>
               <Col xs={12} sm={12} md={12} lg={12} className={cx(s.space1)}>
-                <p className={s.textMutedNew}><FormattedMessage {...messages.cancellations} /></p>
+                <p className={s.sectionTitleText}><FormattedMessage {...messages.cancellations} /></p>
               </Col>
               <Col xs={12} sm={12} md={12} lg={12} className={cx(s.spaceTop1)}>
                 <Row>
