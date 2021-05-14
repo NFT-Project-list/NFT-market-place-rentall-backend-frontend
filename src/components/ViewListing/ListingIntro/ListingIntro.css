@@ -1,4 +1,7 @@
 @import '../common.css';
+.displayTableCellIcon {
+	padding-top: 3px !important;
+}
  .profileAvatarSection {
 	position: relative;
 	text-align: center;

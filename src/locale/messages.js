@@ -697,7 +697,7 @@ const messages = defineMessages({
   },
   aboutListing: {
     id: 'rentall.aboutListing',
-    defaultMessage: 'About this listing',
+    defaultMessage: 'About',
     description: 'View listing description',
   },
   contactHost: {
@@ -707,7 +707,7 @@ const messages = defineMessages({
   },
   theSpace: {
     id: 'rentall.theSpace',
-    defaultMessage: 'The space',
+    defaultMessage: 'Space',
     description: 'The space',
   },
   accommodates: {

@@ -24,6 +24,7 @@
     display: inline-block;
     position: relative;
     margin: 0 4px 0 8px;
+    
 }
 @media (max-width: 993px) and (min-width:769px) {
     .filterButtonContainer {
