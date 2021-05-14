@@ -92,7 +92,8 @@ class ListingIntro extends React.Component {
                   <div className={cx(s.displayTable)}>
                     <div className={s.displayTableRow}>
                       <div className={cx(s.displayTableCellIcon, 'overviewIconRtl')}>
-                        <img src={HomeIcon} className={s.overviewIcon} alt={'Room'} />
+                        {/* <img src={HomeIcon} className={s.overviewIcon} alt={'Room'} /> */}
+                        🏠
                       </div>
                       <div className={cx(s.displayTableCell, s.introTextPadding)}>
                         <div className={cx(s.textMutedNew)}><FormattedMessage {...messages.roomType} /></div>
@@ -105,7 +106,8 @@ class ListingIntro extends React.Component {
                   <div className={cx(s.displayTable, s.tableMarginTop)}>
                     <div className={s.displayTableRow}>
                     <div className={cx(s.displayTableCellIcon, 'overviewIconRtl')}>
-                        <img src={User} className={s.overviewIcon} alt={'Guest'} />
+                        {/* <img src={User} className={s.overviewIcon} alt={'Guest'} /> */}
+                        🧑‍🤝‍🧑
                       </div>
                       <div className={cx(s.displayTableCell, s.introTextPadding)}>
                         <div className={cx(s.textMutedNew)}>
@@ -127,7 +129,8 @@ class ListingIntro extends React.Component {
                   <div className={cx(s.displayTable, s.tableMarginTop)}>
                     <div className={s.displayTableRow}>
                     <div className={cx(s.displayTableCellIcon, 'overviewIconRtl')}>
-                        <img src={Building} className={s.overviewIcon} alt={'Bedroom'} />
+                        {/* <img src={Building} className={s.overviewIcon} alt={'Bedroom'} /> */}
+                        🏨
                       </div>
                       <div className={cx(s.displayTableCell, s.introTextPadding)}>
                         <div className={cx(s.textMutedNew)}>
@@ -144,7 +147,8 @@ class ListingIntro extends React.Component {
                   <div className={cx(s.displayTable, s.tableMarginTop)}>
                     <div className={s.displayTableRow}>
                     <div className={cx(s.displayTableCellIcon, 'overviewIconRtl')}>
-                        <img src={Slumber} className={s.overviewIcon} alt={'Bed'} />
+                        {/* <img src={Slumber} className={s.overviewIcon} alt={'Bed'} /> */}
+                        🛏️
                       </div>
                       <div className={cx(s.displayTableCell, s.introTextPadding)}>
                         <div className={cx(s.textMutedNew)}>

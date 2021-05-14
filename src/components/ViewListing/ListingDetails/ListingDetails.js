@@ -182,7 +182,7 @@ class ListingDetails extends React.Component {
         <div className={cx(s.horizontalLineThrough)}>
           <Row>
             <Col xs={12} sm={12} md={12} lg={12} className={cx(s.space1)}>
-              <p className={s.textMutedNew}><FormattedMessage {...messages.theSpace} /></p>
+              <p className={s.sectionTitleText}><FormattedMessage {...messages.theSpace} /></p>
             </Col>
             <Col xs={12} sm={12} md={12} lg={12}>
               <Row>
@@ -233,6 +233,7 @@ class ListingDetails extends React.Component {
         {
           listBedTypes && listBedTypes.length > 0 && listBedTypes[0].bedType && <div> <ListBedTypes
             itemList={listBedTypes}
+            class={s.sectionTitleText}
             label={formatMessage(messages.beds)}
           />
             <div xs={12} sm={12} md={12} lg={12}>

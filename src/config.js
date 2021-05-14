@@ -59,7 +59,7 @@ export const analytics = {
 
 };
 
-export const googleMapAPI = process.env.GOOGLE_MAP_API || 'AIzaSyBl53NrMVhtVn9MahX5cG2gXvmwhH7oT5A';
+export const googleMapAPI = process.env.GOOGLE_MAP_API || 'AIzaSyB5bnrcQ4nuFFTJeY7A-8ywXkZvHF-etRY';
 export const googleMapServerAPI = process.env.GOOGLE_MAP_SERVER_API;
 
 export const serverKey = process.env.PUSH_NOTIFICATION_SERVER_KEY;

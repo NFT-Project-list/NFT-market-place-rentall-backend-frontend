@@ -45,6 +45,7 @@ class Html extends React.Component {
           <meta name="twitter:image" content={image} />
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />
+          <meta name="google-site-verification" content="IWtVHpCGBzvw7pil0OdwY550-dcBzSHTwDd8yMrnnx4" />
           <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	        <link rel="stylesheet" href="/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/css/react-slick/slick.min.css" />

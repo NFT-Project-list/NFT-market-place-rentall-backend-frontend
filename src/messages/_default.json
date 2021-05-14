@@ -56,7 +56,7 @@
   {
     "id": "rentall.aboutListing",
     "description": "View listing description",
-    "defaultMessage": "About this listing",
+    "defaultMessage": "About",
     "message": "",
     "files": [
       "src/locale/messages.js"
