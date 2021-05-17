@@ -47,17 +47,17 @@ class Html extends React.Component {
           <meta name="twitter:description" content={description} />
           <meta name="google-site-verification" content="IWtVHpCGBzvw7pil0OdwY550-dcBzSHTwDd8yMrnnx4" />
           <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-	        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" async media="handheld"/>
-          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick.min.css" async media="handheld"/>
-          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick-theme.min.css" async media="handheld"/>
-          <link rel="stylesheet" type="text/css" href="/css/react-swiper/swiper.min.css" async media="handheld"/>
-          <link rel="stylesheet" href="/css/rentall-common.css" async media="handheld"/>
-          <link rel="stylesheet" href="/css/min/dropzone.min.css" async media="handheld"/>
+	        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" media="handheld"/>
+          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick.min.css" media="handheld"/>
+          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick-theme.min.css" media="handheld"/>
+          <link rel="stylesheet" type="text/css" href="/css/react-swiper/swiper.min.css" media="handheld"/>
+          <link rel="stylesheet" href="/css/rentall-common.css" media="handheld"/>
+          <link rel="stylesheet" href="/css/min/dropzone.min.css" media="handheld"/>
           <link rel="stylesheet" media="print" href="/css/print.css" />
-          <link rel="stylesheet" type="text/css" href="/css/quill-snow.css" async media="handheld"/>
-          <link rel="stylesheet" href="/css/rtl.css" async media="handheld"/>
+          <link rel="stylesheet" type="text/css" href="/css/quill-snow.css" media="handheld"/>
+          <link rel="stylesheet" href="/css/rtl.css" media="handheld"/>
           {
-            isRTL(lang) && <link rel="stylesheet" id="rtl-style" href={'/css/rentall-rtl.min.css'} async media="handheld"/>
+            isRTL(lang) && <link rel="stylesheet" id="rtl-style" href={'/css/rentall-rtl.min.css'} media="handheld"/>
           }
           {styles.map(style =>
             <style

@@ -31,7 +31,7 @@ class ListingIntro extends React.Component {
     data: PropTypes.object,
     formatMessage: PropTypes.any,
     reviewsCount: PropTypes.number.isRequired,
-    reviewsStarRating: PropTypes.number.isRequired,
+    reviewsStarRating: PropTypes.number,
   };
 
   render() {
