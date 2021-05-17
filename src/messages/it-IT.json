@@ -206,7 +206,7 @@
   {
     "id": "rentall.aboutListing",
     "description": "View listing description",
-    "defaultMessage": "About this listing",
+    "defaultMessage": "About",
     "message": "A proposito di questa offerta",
     "files": [
       "src/locale/messages.js"
@@ -5048,7 +5048,7 @@
   {
     "id": "rentall.theSpace",
     "description": "The space",
-    "defaultMessage": "The space",
+    "defaultMessage": "Space",
     "message": "Lo spazio",
     "files": [
       "src/locale/messages.js"

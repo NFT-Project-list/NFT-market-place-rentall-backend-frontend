@@ -4889,7 +4889,7 @@
   {
     "id": "rentall.theSpace",
     "description": "The space",
-    "defaultMessage": "The space",
+    "defaultMessage": "Space",
     "message": "",
     "files": [
       "src/locale/messages.js"
