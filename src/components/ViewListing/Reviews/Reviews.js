@@ -27,7 +27,7 @@ class Reviews extends React.Component {
     formatMessage: PropTypes.any,
     listId: PropTypes.number.isRequired,
     reviewsCount: PropTypes.number.isRequired,
-    reviewsStarRating: PropTypes.number.isRequired,
+    reviewsStarRating: PropTypes.number,
     data: PropTypes.shape({
       loading: PropTypes.bool,
       moreListReviews: PropTypes.arrayOf(PropTypes.shape({

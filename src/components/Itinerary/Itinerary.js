@@ -47,7 +47,8 @@ class Itinerary extends React.Component {
         country: PropTypes.string.isRequired,
         zipcode: PropTypes.string.isRequired,
         reviewsCount: PropTypes.number.isRequired,
-        reviewsStarRating: PropTypes.number.isRequired,
+        // reviewsStarRating: PropTypes.number.isRequired,
+        reviewsStarRating: PropTypes.number,
         listingData: PropTypes.shape({
           checkInStart: PropTypes.string.isRequired,
           checkInEnd: PropTypes.string.isRequired

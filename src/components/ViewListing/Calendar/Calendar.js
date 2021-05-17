@@ -48,7 +48,8 @@ class Calendar extends React.Component {
         formatMessage: PropTypes.any,
         userBanStatus: PropTypes.number,
         reviewsCount: PropTypes.number.isRequired,
-        reviewsStarRating: PropTypes.number.isRequired,
+        // reviewsStarRating: PropTypes.number.isRequired,
+        reviewsStarRating: PropTypes.number,
     };
     static defaultProps = {
         isLoading: false,
