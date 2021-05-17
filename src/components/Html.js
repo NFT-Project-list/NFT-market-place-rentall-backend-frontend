@@ -48,16 +48,16 @@ class Html extends React.Component {
           <meta name="google-site-verification" content="IWtVHpCGBzvw7pil0OdwY550-dcBzSHTwDd8yMrnnx4" />
           <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
-          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick.min.css" async />
-          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick-theme.min.css" async/>
-          <link rel="stylesheet" type="text/css" href="/css/react-swiper/swiper.min.css" async/>
-          <link rel="stylesheet" href="/css/rentall-common.css" async/>
+          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick.min.css" async defer/>
+          <link rel="stylesheet" type="text/css" href="/css/react-slick/slick-theme.min.css" async defer/>
+          <link rel="stylesheet" type="text/css" href="/css/react-swiper/swiper.min.css" async defer/>
+          <link rel="stylesheet" href="/css/rentall-common.css" async defer/>
           <link rel="stylesheet" href="/css/min/dropzone.min.css" async/>
-          <link rel="stylesheet" media="print" href="/css/print.css" async/>
-          <link rel="stylesheet" type="text/css" href="/css/quill-snow.css" async/>
-          <link rel="stylesheet" href="/css/rtl.css" async/>
+          <link rel="stylesheet" media="print" href="/css/print.css" async defer/>
+          <link rel="stylesheet" type="text/css" href="/css/quill-snow.css" async defer/>
+          <link rel="stylesheet" href="/css/rtl.css" async defer/>
           {
-            isRTL(lang) && <link rel="stylesheet" id="rtl-style" href={'/css/rentall-rtl.min.css'} async/>
+            isRTL(lang) && <link rel="stylesheet" id="rtl-style" href={'/css/rentall-rtl.min.css'} async defer/>
           }
           {styles.map(style =>
             <style
