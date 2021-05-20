@@ -96,9 +96,9 @@ export const googleCaptcha = {
 // SMS verification
 export const sms = {
   twilio: {
-    accountSid: process.env.TWILIO_ACCOUNTSID,
-    authToken: process.env.TWILIO_AUTHTOKEN,
-    phoneNumber: process.env.TWILIO_PHONENUMBER
+    accountSid: `${url}${process.env.TWILIO_ACCOUNTSID}` || 'ACcd400137b32ab6a7243cc324929c51fd',
+    authToken: `${url}${process.env.TWILIO_AUTHTOKEN}` || '599880fe92a1e012e74b7f1ceb036fe0',
+    phoneNumber: `${url}${process.env.TWILIO_PHONENUMBER}` || '+15103984916'
   }
 };
 
