@@ -43,10 +43,10 @@ class EmptyList extends Component {
           <div className={cx(s.spaceTop3, s.textCenter)}>
             <span className={s.textTitle}><FormattedMessage {...messages.addPayoutMethod} /></span>
           </div>
-          <div className={s.textCenter}>
+          {/* <div className={s.textCenter}>
             <span className={s.textLead}>{siteName} <FormattedMessage {...messages.paymentReleaseInfo1} /></span><br />
             <span className={s.textLead}><FormattedMessage {...messages.paymentReleaseInfo2} /></span>
-          </div>
+          </div> */}
           <div className={cx(s.spaceTop4, s.space2, s.textCenter)}>
             <Link to={"/user/addpayout"}><img style={{width: '14em', height: '2.7em', borderRadius: '5px'}} alt="Connect with MetaMask" src={metaMaskBtn} /></Link>
           </div>
