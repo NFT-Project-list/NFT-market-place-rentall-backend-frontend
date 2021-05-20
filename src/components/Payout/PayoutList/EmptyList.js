@@ -11,6 +11,7 @@ import cx from 'classnames';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './EmptyList.css';
 import bt from '../../../components/commonStyle.css';
+import metaMaskBtn from '../../../../images/home/metamask-btn.png';
 
 
 // Redirection
@@ -47,7 +48,7 @@ class EmptyList extends Component {
             <span className={s.textLead}><FormattedMessage {...messages.paymentReleaseInfo2} /></span>
           </div>
           <div className={cx(s.spaceTop4, s.space2, s.textCenter)}>
-            <Link to={"/user/addpayout"} className={cx(bt.btnPrimary)}><FormattedMessage {...messages.addPayout} /></Link>
+            <Link to={"/user/addpayout"}><img style={{width: '14em', height: '2.7em', borderRadius: '5px'}} alt="Connect with MetaMask" src={metaMaskBtn} /></Link>
           </div>
         </Panel>
       </div>
