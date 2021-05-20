@@ -75,8 +75,8 @@ class LoginModal extends Component {
           <Modal.Body bsClass={s.logInModalBody}>
             <div className={s.root}>
               <div className={s.container}>
-                <SocialLogin />
-                <strong className={s.lineThrough}><FormattedMessage {...messages.or} /></strong>
+                {/* <SocialLogin /> */}
+                {/* <strong className={s.lineThrough}><FormattedMessage {...messages.or} /></strong> */}
                 <LoginForm />
                 <hr className={s.horizontalLineThrough} />
                 <div className={cx(s.formGroup, s.formSection)}>

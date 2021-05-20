@@ -394,7 +394,7 @@ class EditProfileForm extends Component {
               </Col>
             </Row>
 
-            <Row className={s.formGroup}>
+            {/* <Row className={s.formGroup}>
               <Col componentClass={ControlLabel} xs={12} sm={3} md={3} lg={3} className={cx(s.textAlign, 'textAlignLeftRtlEdit')}>
                 <label className={s.labelText} >{formatMessage(messages.preferredCurrency)}</label>
               </Col>
@@ -415,7 +415,7 @@ class EditProfileForm extends Component {
                 </div>
 
               </Col>
-            </Row>
+            </Row> */}
 
             <Row className={s.formGroup}>
               <Col componentClass={ControlLabel} xs={12} sm={3} md={3} lg={3} className={cx(s.textAlign, 'textAlignLeftRtlEdit')}>

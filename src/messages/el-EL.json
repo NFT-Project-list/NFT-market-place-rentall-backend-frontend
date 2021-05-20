@@ -176,8 +176,8 @@
     },
     {
         "id": "editForm.info",
-        "description": "Describe Yourself",
-        "defaultMessage": "Describe Yourself",
+        "description": "Describe your rental",
+        "defaultMessage": "Describe your rental",
         "message": "Περιέγραψε τον εαυτό σου",
         "files": "src/components/siteadmin/EditUserForm/messages.js"
     },
@@ -211,8 +211,8 @@
     },
     {
         "id": "editForm.infoRequired",
-        "description": "Describe Yourself is Required",
-        "defaultMessage": "Describe Yourself is Required",
+        "description": "Describe your rental is Required",
+        "defaultMessage": "Describe your rental is Required",
         "message": "Περιγράψτε τον εαυτό σας είναι απαιτούμενη",
         "files": "src/components/siteadmin/EditUserForm/messages.js"
     },
@@ -247,7 +247,7 @@
     {
         "id": "editForm.location",
         "description": "location",
-        "defaultMessage": "Where You Live",
+        "defaultMessage": "Where do you live?",
         "message": "Που μένεις",
         "files": "src/components/siteadmin/EditUserForm/messages.js"
     },
@@ -1878,7 +1878,7 @@
     {
         "id": "ListSettingsManagement.location",
         "description": "location",
-        "defaultMessage": "Where You Live",
+        "defaultMessage": "Where do you live?",
         "message": "Που μένεις",
         "files": "src/components/siteadmin/ListSettingsManagement/messages.js"
     },
@@ -1976,7 +1976,7 @@
     {
         "id": "adminUserEditForm.location",
         "description": "location",
-        "defaultMessage": "Where You Live",
+        "defaultMessage": "Where do you live?",
         "message": "Που μένεις",
         "files": "src/components/siteadmin/UserManagement/messages.js"
     },
@@ -3921,8 +3921,8 @@
     },
     {
         "id": "rentall.info",
-        "description": "Describe Yourself",
-        "defaultMessage": "Describe Yourself",
+        "description": "Describe your rental",
+        "defaultMessage": "Describe your rental",
         "message": "Περιέγραψε τον εαυτό σου",
         "files": "src/locale/messages.js"
     },
@@ -3956,8 +3956,8 @@
     },
     {
         "id": "rentall.infoRequired",
-        "description": "Describe Yourself is Required",
-        "defaultMessage": "Describe Yourself is Required",
+        "description": "Describe your rental is Required",
+        "defaultMessage": "Describe your rental is Required",
         "message": "Περιγράψτε τον εαυτό σας είναι απαιτούμενη",
         "files": "src/locale/messages.js"
     },
@@ -3978,7 +3978,7 @@
     {
         "id": "rentall.liveLocation",
         "description": "location",
-        "defaultMessage": "Where You Live",
+        "defaultMessage": "Where do you live?",
         "message": "Που μένεις",
         "files": "src/locale/messages.js"
     },
@@ -4552,7 +4552,7 @@
     {
         "id": "rentall.addPayoutMethod",
         "description": "Payout Method",
-        "defaultMessage": "To get paid, you need to set up a payout method",
+        "defaultMessage": "To get paid, you need to set up MetaMask wallet",
         "message": "Για να πληρωθείτε, θα πρέπει να δημιουργήσει μια μέθοδο πληρωμής",
         "files": "src/locale/messages.js"
     },

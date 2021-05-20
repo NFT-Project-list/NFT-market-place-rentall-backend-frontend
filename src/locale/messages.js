@@ -1432,7 +1432,7 @@ const messages = defineMessages({
   },
   liveLocation: {
     id: 'rentall.liveLocation',
-    defaultMessage: 'Where You Live',
+    defaultMessage: 'Where do you live?',
     description: 'location',
   },
   locationRequired: {
@@ -1442,18 +1442,18 @@ const messages = defineMessages({
   },
   info: {
     id: 'rentall.info',
-    defaultMessage: 'Describe Yourself',
-    description: 'Describe Yourself',
+    defaultMessage: 'Describe your rental',
+    description: 'Describe your rental',
   },
   infoRequired: {
     id: 'rentall.infoRequired',
     defaultMessage: 'Profile info is required',
-    description: 'Describe Yourself is Required',
+    description: 'Describe your rental is Required',
   },
   infoRequiredone: {
     id: 'rentall.infoRequiredone',
     defaultMessage: 'Describe yourself is required',
-    description: 'Describe Yourself is Required',
+    description: 'Describe your rental is Required',
   },
 
   somethingWentWrong: {
@@ -1928,7 +1928,7 @@ const messages = defineMessages({
   },
   addPayoutMethod: {
     id: 'rentall.addPayoutMethod',
-    defaultMessage: 'To get paid, you need to set up a payout method',
+    defaultMessage: 'To get paid, you need to set up MetaMask wallet',
     description: 'Payout Method',
   },
   paymentReleaseInfo1: {

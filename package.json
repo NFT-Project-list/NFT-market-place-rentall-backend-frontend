@@ -6,6 +6,7 @@
     "node": ">=10",
     "npm": ">=5.10"
   },
+  "homepage": ".",
   "browserslist": [
     ">1%",
     "last 4 versions",
@@ -123,6 +124,7 @@
     "serialize-javascript": "^1.3.0",
     "sharp": "^0.23.3",
     "sitemap": "^2.2.0",
+    "skynet-js": "^3.0.2",
     "source-map-support": "^0.4.11",
     "stripe": "^8.22.0",
     "twilio": "^3.19.2",

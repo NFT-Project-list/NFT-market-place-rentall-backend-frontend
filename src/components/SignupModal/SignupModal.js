@@ -71,10 +71,10 @@ class SignupModal extends Component {
   renderButtons() {
     return (
       <div>
-        <SocialLogin />
+        {/* <SocialLogin />
         <strong className={s.lineThrough}>
           <FormattedMessage {...messages.or} />
-        </strong>
+        </strong> */}
         <FormGroup className={s.formGroup}>
           <Button className={cx(bt.btnPrimary, bt.btnBig)}  onClick={() => this.openForm()} block>
             <Image src={imageOne} className={cx(s.iconPosition,'iconPositionRtl' )} responsive /><FormattedMessage {...messages.signupWithEmail} />

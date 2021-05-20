@@ -296,7 +296,7 @@
   {
     "id": "rentall.addPayoutMethod",
     "description": "Payout Method",
-    "defaultMessage": "To get paid, you need to set up a payout method",
+    "defaultMessage": "To get paid, you need to set up MetaMask wallet",
     "message": "Para receber o pagamento, você precisa configurar um método de pagamento",
     "files": [
       "src/locale/messages.js"
@@ -2356,8 +2356,8 @@
   },
   {
     "id": "rentall.info",
-    "description": "Describe Yourself",
-    "defaultMessage": "Describe Yourself",
+    "description": "Describe your rental",
+    "defaultMessage": "Describe your rental",
     "message": "Descreva-se",
     "files": [
       "src/locale/messages.js"
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "rentall.infoRequired",
-    "description": "Describe Yourself is Required",
+    "description": "Describe your rental is Required",
     "defaultMessage": "Profile info is required",
     "message": "Informações do perfil é necessária",
     "files": [
@@ -2582,7 +2582,7 @@
   {
     "id": "rentall.liveLocation",
     "description": "location",
-    "defaultMessage": "Where You Live",
+    "defaultMessage": "Where do you live?",
     "message": "Onde você mora",
     "files": [
       "src/locale/messages.js"
@@ -8350,7 +8350,7 @@
   },
   {
     "id": "rentall.infoRequiredone",
-    "description": "Describe Yourself is Required",
+    "description": "Describe your rental is Required",
     "defaultMessage": "Describe yourself is required",
     "message": "Descreva-se é necessária",
     "files": [

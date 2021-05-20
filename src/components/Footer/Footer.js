@@ -187,11 +187,11 @@ class Footer extends React.Component {
                         <FontAwesome.FaTwitter />
                       </a>
                     }
-                    {
+                    {/* {
                       facebook && <a href={facebook} target="_blank" className={cx(s.shareIcon, 'shareIconRtl')}>
                         <FontAwesome.FaFacebook />
                       </a>
-                    }
+                    } */}
                   </Col>
                 </Row>
               </Grid>
