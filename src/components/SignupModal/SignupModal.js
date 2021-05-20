@@ -87,7 +87,7 @@ class SignupModal extends Component {
   renderForm() {
     return (
       <div>
-        <div className={cx(s.formGroup, s.formSection)}>
+        {/* <div className={cx(s.formGroup, s.formSection)}>
           <Col xs={12} sm={12} md={12} lg={12} className={cx(s.noPadding, s.textAlignLeft)}>
             <p className={cx(s.noMargin, s.captionText, s.textAlignCenter)}>
               <FormattedMessage {...messages.signupWith} /> {' '}
@@ -103,7 +103,7 @@ class SignupModal extends Component {
         </div>
         <strong className={s.lineThrough}>
           <FormattedMessage {...messages.or} />
-        </strong>
+        </strong> */}
         <RegisterForm />
       </div>
     );
