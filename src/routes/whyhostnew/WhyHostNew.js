@@ -33,7 +33,7 @@ let Events = Scroll.Events;
 let scroll = Scroll.animateScroll;
 let scrollSpy = Scroll.scrollSpy;
 
-class EditProfile extends React.Component {
+class WhyHostNew extends React.Component {
 
   static propTypes = {
     title: PropTypes.string.isRequired,
@@ -86,4 +86,4 @@ export default compose(
       ssr: false
     }
   }),
-)(EditProfile);
+)(WhyHostNew);
