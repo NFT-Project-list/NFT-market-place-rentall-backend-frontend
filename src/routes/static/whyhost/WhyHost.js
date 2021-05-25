@@ -6,7 +6,7 @@ import s from './WhyHost.css';
 // Components
 import Test from './Test';
 
-class EditProfile extends React.Component {
+class WhyHost extends React.Component {
 
   static propTypes = {
     title: PropTypes.string.isRequired,
@@ -22,4 +22,4 @@ class EditProfile extends React.Component {
   }
 }
 
-export default withStyles(s)(EditProfile);
+export default withStyles(s)(WhyHost);
