@@ -13,7 +13,6 @@ import { renderToStringWithData } from 'react-apollo';
 import UniversalRouter from 'universal-router';
 import PrettyError from 'pretty-error';
 import { IntlProvider } from 'react-intl';
-import cors from 'cors';
 
 import './serverIntlPolyfill';
 import createApolloClient from './core/createApolloClient';
@@ -99,6 +98,8 @@ import uploadListPhotoMobile from './core/uploadListPhotoMobile';
 import sitemapRoutes from './core/sitemap/sitemapRoutes';
 
 import pushNotificationRoutes from './core/pushNotifications/pushNotificationRoutes';
+
+const cors = require('cors');
 
 const app = express();
 app.use(compression());
