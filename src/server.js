@@ -13,6 +13,7 @@ import { renderToStringWithData } from 'react-apollo';
 import UniversalRouter from 'universal-router';
 import PrettyError from 'pretty-error';
 import { IntlProvider } from 'react-intl';
+import cors from 'cors';
 
 import './serverIntlPolyfill';
 import createApolloClient from './core/createApolloClient';
@@ -131,7 +132,6 @@ app.use(requestLanguage({
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 //
 // Authentication
 // -----------------------------------------------------------------------------
@@ -140,6 +140,9 @@ app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type, Authorization');
   next();
 });
+
+app.use(cors());
+
 app.use(expressJwt({
   secret: auth.jwt.secret,
   credentialsRequired: false,
@@ -245,7 +248,7 @@ const graphqlMiddleware = expressGraphQL((req, res) => ({
   pretty: __DEV__,
 }));
 
-app.use('/graphql', graphqlMiddleware);
+app.use('/graphql', cors(), graphqlMiddleware);
 
 //
 // Register server-side rendering middleware
