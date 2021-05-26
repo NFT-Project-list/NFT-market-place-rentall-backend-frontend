@@ -2,7 +2,7 @@ import ApolloClient, { createNetworkInterface } from 'apollo-client';
 
 const client = new ApolloClient({
   networkInterface: createNetworkInterface({
-    uri: 'http://127.0.0.1:3000/graphql',
+    uri: 'https://www.rentluv.com/graphql',
     opts: {
       // Additional fetch options like `credentials` or `headers`
       credentials: 'include'
