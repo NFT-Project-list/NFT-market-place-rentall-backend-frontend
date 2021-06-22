@@ -130,7 +130,7 @@ class ListingIntro extends React.Component {
                     <div className={s.displayTableRow}>
                     <div className={cx(s.displayTableCellIcon, 'overviewIconRtl')}>
                         {/* <img src={Building} className={s.overviewIcon} alt={'Bedroom'} /> */}
-                        🏨
+                        🚪
                       </div>
                       <div className={cx(s.displayTableCell, s.introTextPadding)}>
                         <div className={cx(s.textMutedNew)}>

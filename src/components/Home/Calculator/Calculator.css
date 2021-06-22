@@ -1,0 +1,147 @@
+@import "../../variables.css";
+/** Common - Start **/
+.noPadding {
+  padding: 0px;
+}
+.noMargin {
+  margin: 0px;
+}
+/** Common - End **/
+/** Banner caption - Start **/
+.calculatorContainer {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+}
+.bannerCaptionText {
+  font-size: 48px;
+  line-height: 56px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #484848;
+  margin: 0px;
+  font-weight: 200;
+}
+.bannerCaptionHighlight {
+  font-weight: 700;
+  /* color: var(--btn-primary-bg); */
+  background: hsla(357, 86%, 64%, 1);
+  background: linear-gradient(0deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
+  background: -moz-linear-gradient(0deg, hsla(357, 86%, 64%, 1) 10%, hsla(185, 85%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(357, 86%, 64%, 1) 10%,
+    hsla(185, 85%, 50%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#f2545b", endColorstr="#13d9eb", GradientType=1);
+  -ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=" #f2545b ", endColorstr="
+    #13d9eb ", GradientType=1)";
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.calcContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f8f6f4;
+    border-radius: 10px;
+    padding: 20px;
+}
+.calcSlider {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    /* padding: 20px; */
+    margin-right: 30px;
+}
+.slidebarContainer {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.slidebar {
+    /* margin: .4rem; */
+}
+.bookingsFund {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.greyDollarSign {
+    color: #aaa;
+}
+.rcSlider {
+    max-width: 200px;
+}
+.calcTable {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    flex: 2;
+}
+.calcLine {
+    display: none;
+}
+.tableBorder {
+    border-top: 0 !important;
+    border-bottom: 1px solid #ddd !important;
+}
+.tableNoBottomBorder {
+    border-bottom: 0 !important;
+}
+.boldText {
+    font-weight: bold;
+}
+.savingsTextBox {
+    background-color: #DCEA8E;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+  .bannerCaptionText {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bannerCaptionText {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .calcContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #f8f6f4;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .calcTable {
+    display: none;
+  }
+
+  .calcSlider {
+    margin-bottom: 30px;
+    /* background-color: #FDFCFB; */
+  }
+
+  .calcLine {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+}
+/** Banner caption - End **/

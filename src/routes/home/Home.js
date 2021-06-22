@@ -8,6 +8,7 @@ import { FormattedMessage, injectIntl } from 'react-intl';
 
 //Components
 import BannerCaption from '../../components/Home/BannerCaption';
+import Calculator from '../../components/Home/Calculator';
 import HomeSlider from '../../components/Home/HomeSlider';
 import NewsBox from '../../components/Home/NewsBox';
 import SearchForm from '../../components/Home/SearchForm';
@@ -108,7 +109,7 @@ class Homepage extends React.Component {
         }
 
 
-        <div className={s.container}>
+        <div className={s.container} style={{marginTop: '25px'}}>
 
           {
             layoutType && layoutType == 2 && <div className={s.pageContainer}>
@@ -118,6 +119,13 @@ class Homepage extends React.Component {
               </div>
             </div>
           }
+
+          {
+            layoutType && layoutType == 2 && <div className={s.container}>
+              <Calculator />
+            </div>
+          }
+
           {/* {
             layoutType && layoutType == 2 && <div className={s.pageContainer}>
               <SearchForm />
