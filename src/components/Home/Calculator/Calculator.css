@@ -46,7 +46,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    /* background-color: #f8f6f4; */
+    background-color: #f6ae2d;
     border-radius: 10px;
     padding: 20px;
 }
@@ -121,7 +121,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    /* background-color: #f8f6f4; */
+    background-color: #f6ae2d;
     border-radius: 10px;
     padding: 20px;
   }
@@ -132,7 +132,7 @@
 
   .calcSlider {
     margin-bottom: 30px;
-    /* background-color: #FDFCFB; */
+    /* background-color: #f6ae2d; */
   }
 
   .calcLine {
