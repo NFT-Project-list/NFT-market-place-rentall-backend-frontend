@@ -47,8 +47,8 @@ class Calculator extends React.Component {
         <Grid fluid>
           <Row>
             <Col xs={12} sm={12} md={10} lg={10} className={cx(s.calculatorContainer)}>
-              <h1 className={cx(s.boldText)}>Hosts get more</h1>
-              <p style={{fontSize: "16px", marginBottom: "22px"}}>With the lowest fees in the industry, you keep more of what you earn. Whereas similar platforms charge up to 20% per transaction, RentLUV only charges 2.5% (with 0% for hosts)!</p>
+              <h1 className={cx(s.boldText)}>Hostess Save The Mostess</h1>
+              <p style={{fontSize: "16px", marginBottom: "22px"}}>Our fees are so low you might as well say we have no fees. Whereas similar platforms charge up to 20% per transaction, Rent LUV only charges 2.5% (with 0% for hosts)!</p>
               <div className={cx(s.calcContainer)}>
                 <div className={cx(s.calcSlider)}>
                     <h4>Expected monthly bookings</h4>
@@ -80,7 +80,7 @@ class Calculator extends React.Component {
                             <tr>
                                 <td className={cx(s.tableBorder)}></td>
                                 <td className={cx(s.tableBorder)}>Other platforms</td>
-                                <td className={cx(s.tableBorder)}>RentLUV</td>
+                                <td className={cx(s.tableBorder)}>Rent LUV</td>
                             </tr>
                             <tr>
                                 <td className={cx(s.tableBorder)}>Gross booking</td>
@@ -98,7 +98,7 @@ class Calculator extends React.Component {
                                 <td className={cx(s.boldText, s.tableBorder)}>{'$' + this.state.bookings * (1 - this.state.fees / 100)}</td>
                             </tr>
                             <tr>
-                                <td className={cx(s.tableBorder, s.tableNoBottomBorder)}>Savings with RentLUV</td>
+                                <td className={cx(s.tableBorder, s.tableNoBottomBorder)}>Savings with Rent LUV</td>
                                 <td className={cx(s.tableBorder, s.tableNoBottomBorder)}></td>
                                 <td className={cx(s.boldText, s.tableBorder, s.tableNoBottomBorder)}><span className={cx(s.savingsTextBox)}>{'+$' + this.state.bookings * (this.state.otherFees - this.state.fees) / 100}</span></td>
                             </tr>
@@ -106,7 +106,7 @@ class Calculator extends React.Component {
                     </Table>
                 </div>
                 <div className={cx(s.calcLine)}>
-                    <span className={cx(s.tableBorder)}>Savings with RentLUV</span>
+                    <span>Savings with Rent LUV</span>
                     <span className={cx(s.boldText, s.tableBorder)}><span className={cx(s.savingsTextBox)}>{'+$' + this.state.bookings * (this.state.otherFees - this.state.fees) / 100}</span></span>
                 </div>
               </div>
